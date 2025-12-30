@@ -26,8 +26,8 @@ const App = () => {
   </div>
     <div>
       <Lifecycle/>
-      <Inputs/>
-      <Language/>
+      {/* <Inputs/>
+      <Language/> */}
     </div>
     </>
   )
