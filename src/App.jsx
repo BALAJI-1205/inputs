@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Lifecycle from './Components/Lifecycle'
 import Inputs from './Components/inputs'
 import Language from './Components/Language'
+import Evenorodd from './Components/Evenorodd'
+import Useref from './Components/Useref'
 
 const App = () => {
   const [user,setUser]=useState("")
@@ -25,12 +27,26 @@ const App = () => {
     </form>
   </div>
     <div>
-      <Lifecycle/>
-      {/* <Inputs/>
-      <Language/> */}
+      {/* <Lifecycle/>
+       <Inputs/>
+       <Language/> 
+       <Evenorodd/> */}
+       <Useref/>
+       
     </div>
     </>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
 
 export default App
